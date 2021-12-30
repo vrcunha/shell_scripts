@@ -6,8 +6,12 @@ touch main.py readme.md
 
 echo venv/ > ./.gitignore
 
-source /venv/bin/activate
+echo pwd
+
+$PWD = `pwd`
+
+source $PWD/venv/bin/activate
 
 pip install --upgrade pip
 
-pip list
+chown $USER .git .gitignore main.py readme.md venv
