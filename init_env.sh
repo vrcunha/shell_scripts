@@ -14,6 +14,4 @@ source $PWD/venv/bin/activate
 
 pip install --upgrade pip
 
-# chown -R $USER .git .gitignore main.py readme.md venv
-
-chown -R $USER $PWD
+chown -R $USER $PWD/*
