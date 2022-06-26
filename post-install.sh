@@ -119,7 +119,3 @@ pyenv install -v 3.9.12
 pyenv global 3.9.12
 
 exec $SHELL
-
-echo "Atualizando SSH e VSCODE configs"
-cp /media/$USER/backup/_ssh/* ~/.ssh
-cp -r /media/$USER/backup/_vscode/* ~/.vscode
